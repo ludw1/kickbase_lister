@@ -2,10 +2,10 @@ from bs4 import BeautifulSoup
 def style_table(filename: str) -> None:
     # --- 1. Read the original HTML file ---
     try:
-        with open("filename", "r", encoding="utf-8") as f:
+        with open(filename, "r", encoding="utf-8") as f:
             html_content = f.read()
     except FileNotFoundError:
-        print("Error: table.html not found. Make sure the file is in the same directory.")
+        print(f"Error: {filename} not found. Make sure the file is in the same directory.")
         exit()
 
     # --- 2. Parse the HTML with BeautifulSoup ---
