@@ -10,37 +10,6 @@ Nachdem die erforderlichen Packages mit ```pip install -r requirements.txt``` in
 Geplant war eine Punktevorhersage basierend auf den durchschnittlichen Punkten pro Minuten von allen Spielern, dazu sind ```graph.py``` und ```player_analyze.py``` gedacht. Außerdem ist es relativ einfach mit den bereits geschriebenen Funktionen das Cash, was jeder Manager zu Verfügung hat, auszurechnen.
 
 ### Beispiel
-<head>
- <style>
-  body {
-        font-family: Arial, sans-serif;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse; /* Removes space between cell borders */
-        margin: 20px 0;
-    }
-    th, td {
-        border: 1px solid #444444; /* Darker border for the theme */
-        padding: 12px;
-        text-align: left;
-    }
-    th {
-        background-color: #333333; /* Header background */
-    }
-    /* Zebra-striping for data rows */
-    tbody tr:nth-child(even) {
-        background-color: #222222;
-    }
-    tbody tr:hover {
-        background-color: #444444; /* Highlight row on hover */
-    }
-    /* Center the text in these specific columns */
-    .center-text {
-        text-align: center;
-    }
- </style>
-</head>
 <table>
  <thead>
   <tr>
